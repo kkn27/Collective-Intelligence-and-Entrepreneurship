@@ -1,0 +1,934 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://jcu.edu.au/jc688371/KaungKhantNaing/17082020/Crime"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://jcu.edu.au/jc688371/KaungKhantNaing/17082020/Crime"
+     versionIRI="http://jcu.edu.au/jc688371/KaungKhantNaing/17082020/Crime">
+    <Prefix name="" IRI="http://jcu.edu.au/jc688371/KaungKhantNaing/17082020/Crime"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Accident"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Chemical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#CompletedInvestigation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Electrical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Fire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#HighDamage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Injured"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Investigation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Investigator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Kinetic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Liquid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#LowDamage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#MediumDamage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#NotInjured"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Victim"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Witness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#inProgressInvestigation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isConductedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isConductedFor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isDamagedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isInjuredBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isInvestigating"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isOwnedBy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#hasDamageCost"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#hasInjury"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#AirCompressor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#AirCompressorIncident1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#AirCompressorIncident2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#AirCompressorInvestigation1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#AirCompressorInvestigation2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Allysa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Charlie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Computer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#George"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Hubert"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Laboratory"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#LaboratoryAccident"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#LaboratoryInvestigation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#MotorGenerator"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Sam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Scales"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Sensor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Tom"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Workshop"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#WorkshopFire"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#WorkshopInvestigation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Zach"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#HighDamage"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Accident"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#hasDamageCost"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:integer"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10000</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#LowDamage"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Accident"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#hasDamageCost"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:integer"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1000</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#MediumDamage"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Accident"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#hasDamageCost"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:integer"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1000</Literal>
+                    </FacetRestriction>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10000</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Accident"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#hasDamageCost"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Chemical"/>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Accident"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#CompletedInvestigation"/>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Investigation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Electrical"/>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Accident"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Fire"/>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Accident"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Injured"/>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Victim"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Injured"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isInjuredBy"/>
+            <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Accident"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Injured"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#hasInjury"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Investigation"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isConductedBy"/>
+            <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Investigator"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Investigation"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isConductedFor"/>
+            <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Accident"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Investigator"/>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Investigator"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isInvestigating"/>
+            <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Accident"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Kinetic"/>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Accident"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Liquid"/>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Accident"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#LowDamage"/>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Accident"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#NotInjured"/>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Victim"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Object"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isDamagedBy"/>
+            <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Accident"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Object"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isOwnedBy"/>
+            <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Victim"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Victim"/>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Witness"/>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#inProgressInvestigation"/>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Investigation"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#CompletedInvestigation"/>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#inProgressInvestigation"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#HighDamage"/>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#LowDamage"/>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#MediumDamage"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Injured"/>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#NotInjured"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Investigator"/>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Victim"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Investigator"/>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Witness"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Object"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#AirCompressor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Electrical"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#AirCompressorIncident1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Electrical"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#AirCompressorIncident2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#inProgressInvestigation"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#AirCompressorInvestigation1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#inProgressInvestigation"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#AirCompressorInvestigation2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Investigator"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Allysa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Victim"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Charlie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Object"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Computer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Investigator"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#George"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Victim"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Hubert"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Object"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Laboratory"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Kinetic"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#LaboratoryAccident"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Liquid"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#LaboratoryAccident"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#inProgressInvestigation"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#LaboratoryInvestigation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Object"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#MotorGenerator"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Witness"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Sam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Object"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Scales"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Object"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Sensor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Victim"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Tom"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Object"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Workshop"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Fire"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#WorkshopFire"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Kinetic"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#WorkshopFire"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#inProgressInvestigation"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#WorkshopInvestigation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Investigator"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Zach"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isConductedBy"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#AirCompressorInvestigation1"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Allysa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isConductedFor"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#AirCompressorInvestigation1"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#AirCompressorIncident1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isConductedBy"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#AirCompressorInvestigation2"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Allysa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isConductedFor"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#AirCompressorInvestigation2"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#AirCompressorIncident2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isInvestigating"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Allysa"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#AirCompressor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isInjuredBy"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Charlie"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#LaboratoryAccident"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isDamagedBy"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Computer"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#AirCompressorIncident1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isInvestigating"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#George"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#LaboratoryAccident"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isInjuredBy"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Hubert"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#AirCompressorIncident2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isDamagedBy"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Laboratory"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#LaboratoryAccident"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isConductedBy"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#LaboratoryInvestigation"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#George"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isConductedFor"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#LaboratoryInvestigation"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#LaboratoryAccident"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isDamagedBy"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#MotorGenerator"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#WorkshopFire"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isDamagedBy"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Scales"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#AirCompressorIncident1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isDamagedBy"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Sensor"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#LaboratoryAccident"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isInjuredBy"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Tom"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#WorkshopFire"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isDamagedBy"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Workshop"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#WorkshopFire"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isOwnedBy"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Workshop"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Tom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isConductedBy"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#WorkshopInvestigation"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Zach"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isConductedFor"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#WorkshopInvestigation"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#WorkshopFire"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isInvestigating"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Zach"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#WorkshopFire"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#hasDamageCost"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#AirCompressorIncident1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2500</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#hasDamageCost"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#AirCompressorIncident2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#hasInjury"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Charlie"/>
+        <Literal>&quot;slipped and hurt his head&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#hasDamageCost"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Computer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#hasInjury"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Hubert"/>
+        <Literal>minor shock</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#hasDamageCost"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#LaboratoryAccident"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">800</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#hasDamageCost"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#MotorGenerator"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#hasDamageCost"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Scales"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">500</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#hasDamageCost"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Sensor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">800</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#hasInjury"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Tom"/>
+        <Literal>&quot;burnt his legs during fire&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#hasDamageCost"/>
+        <NamedIndividual IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#WorkshopFire"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">15000</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isConductedBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isConductedFor"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isDamagedBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isInjuredBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isInvestigating"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isOwnedBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isConductedBy"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isConductedFor"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isInvestigating"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isConductedFor"/>
+    </InverseFunctionalObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isConductedBy"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isConductedFor"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isDamagedBy"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isInjuredBy"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isInvestigating"/>
+    </AsymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isOwnedBy"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isConductedBy"/>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Investigation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isConductedFor"/>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Investigation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isDamagedBy"/>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Object"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isInjuredBy"/>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Injured"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isInvestigating"/>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Investigator"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isOwnedBy"/>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Object"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isConductedBy"/>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Investigator"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isConductedFor"/>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Accident"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isDamagedBy"/>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Accident"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isInjuredBy"/>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Accident"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isInvestigating"/>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Accident"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isOwnedBy"/>
+        <Class IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Victim"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#hasDamageCost"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#hasInjury"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#hasDamageCost"/>
+    </FunctionalDataProperty>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Accident</IRI>
+        <Literal>Different types of accidents, can be differentaited into multiple types</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#AirCompressor</IRI>
+        <Literal>Object for both AirCompressorIncident1 and 2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#AirCompressorIncident1</IRI>
+        <Literal>happened when Sam plugged in the compressor casuing it to short out and damage computer which costs $2000 and $500 to scales</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:backwardCompatibleWith"/>
+        <IRI>http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#AirCompressorIncident2</IRI>
+        <Literal>Happened when Hubert tried to turn on the compressor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:backwardCompatibleWith"/>
+        <IRI>http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#AirCompressorInvestigation1</IRI>
+        <Literal>Ongoing Investigation by Allysa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:backwardCompatibleWith"/>
+        <IRI>http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#AirCompressorInvestigation2</IRI>
+        <Literal>Another Investigation conducted by Allysa concerning Air Compressor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:backwardCompatibleWith"/>
+        <IRI>http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Allysa</IRI>
+        <Literal>Electrician that investigates electrical accidents, here, investigates two accidents revolving around the air compressor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Charlie</IRI>
+        <Literal>Victim in Lab Accident, His Head was injured. He smashed into $800 sensor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Chemical</IRI>
+        <Literal>Chemical Accident</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#CompletedInvestigation</IRI>
+        <Literal>Completed Investigations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Computer</IRI>
+        <Literal>Object damaged during AirCompressorIncident1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Electrical</IRI>
+        <Literal>Electrical Accidents</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Fire</IRI>
+        <Literal>FIre Accidents</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#George</IRI>
+        <Literal>Investigator for Laboratory Accident</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#HighDamage</IRI>
+        <Literal>If the damage cost is higher than $10000</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:backwardCompatibleWith"/>
+        <IRI>http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Hubert</IRI>
+        <Literal>Vcitum used switch to turn on the compressor and received a minor shock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Injured</IRI>
+        <Literal>Victim injured from an accident</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Investigation</IRI>
+        <Literal>An investigation conducted on 1 accident by only 1 investigator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Investigator</IRI>
+        <Literal>Investigator conducting the investigation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Kinetic</IRI>
+        <Literal>kinetic Accidents</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#LaboratoryAccident</IRI>
+        <Literal>Owner, Charlie, is the victim who burned his head</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#LaboratoryInvestigation</IRI>
+        <Literal>Ongoing Investigation on Lab Accident by George</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Liquid</IRI>
+        <Literal>Liquid Accidents</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#LowDamage</IRI>
+        <Literal>If the damage cost is less than or equals $1000</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#MediumDamage</IRI>
+        <Literal>If the damage cost is higher than $1,000 and less than $10,000</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:backwardCompatibleWith"/>
+        <IRI>http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#MotorGenerator</IRI>
+        <Literal>Object owned by Tom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#NotInjured</IRI>
+        <Literal>Victim who did not get injured but lost object during accident</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Object</IRI>
+        <Literal>Any object involved in accident that can be owned by a victim and can be damaged by accident</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Sensor</IRI>
+        <Literal>$800 object that was smashed by Charlie who is also a victim</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Tom</IRI>
+        <Literal>Owner of workshop and burnt his legs in accident</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Witness</IRI>
+        <Literal>Bystander during accident</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Workshop</IRI>
+        <Literal>Tom works here, accident happened here</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#WorkshopFire</IRI>
+        <Literal>Accident involving workshop that injured Tom and costs $15,000 in damage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#WorkshopInvestigation</IRI>
+        <Literal>Investigation by Zack on the workshop fire</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#Zach</IRI>
+        <Literal>Investigator conductig workshop fire</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#hasDamageCost</IRI>
+        <Literal>cost of damage of a certain accident</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#hasInjury</IRI>
+        <Literal>Injury type suffered by a victim</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#inProgressInvestigation</IRI>
+        <Literal>Ongoing Investigations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isConductedBy</IRI>
+        <Literal>1 investigation is conducted by 1 investigator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isConductedFor</IRI>
+        <Literal>1 investigation is for 1 accident</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isDamagedBy</IRI>
+        <Literal>An object can be damaged by accident</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isInjuredBy</IRI>
+        <Literal>A victim can be injured by accident</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isInvestigating</IRI>
+        <Literal>1 investigaotr is investigating 1 accident</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://jcu.edu.au/jc616312/ChanPyaeAung/07042020/Crime#isOwnedBy</IRI>
+        <Literal>object is owned by victim</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
